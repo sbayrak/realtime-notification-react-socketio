@@ -11,7 +11,7 @@ function App() {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    setSocket(io('http://localhost:5000'));
+    setSocket(io('https://realtime-notification-sbayrak.herokuapp.com'));
   }, []);
 
   useEffect(() => {
