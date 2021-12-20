@@ -13,8 +13,6 @@ const Navbar = ({ socket }) => {
     });
   }, [socket, notifications]);
 
-  console.log(notifications);
-
   const displayNotification = ({ senderName, type }) => {
     let action;
     if (type === 1) {
